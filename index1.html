@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahian Germosen - Portfolio</title>
+    <link rel="stylesheet" href="C:\xampp\htdocs\MyPage\Page\style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Brahian Germosen</h1>
+        <h2>Computer Science Student - Passionate About Discoveries</h2>
+        <img src="C:\xampp\htdocs\MyPage\Page\fotomia.jpeg" alt="Brahian Germosen" class="profile-photo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h3>Welcome!</h3>
+        <p>Hi, I’m Brahian Germosen, a Computer Science student from Interamerican University of Puerto Rico. I’m passionate about exploring new discoveries and immersing myself in technology and innovation.</p>
+        <button onclick="window.location.href='#about'">Learn More About Me</button>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h3>About Me</h3>
+        <p>I was born on May 24, 2000, in a small community called Hacienda Estrella in the Dominican Republic. I’m the youngest of 5 siblings and currently in a serious relationship. I’m a lover of good food and good music.</p>
+        <p>I’m currently pursuing a degree in Computer Science at Interamerican University of Puerto Rico.</p>
+        <button onclick="window.location.href='resume.pdf'">Download My CV</button>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h3>My Projects</h3>
+        <div class="project">
+            <h4>Web Development Project</h4>
+            <p>This project involves building a responsive web page using HTML, CSS, and JavaScript.</p>
+            <button onclick="window.location.href='///C:/xampp/htdocs/todo-list-project/index.html'">View Example Webpage</button>
+        </div>
+        <div class="project">
+            <h4>Data Analysis with Python</h4>
+            <p>A project where I developed a data analysis tool using Python to streamline data processes.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h3>Thoughts & Ideas</h3>
+        <p>Coming soon! I will be sharing my ideas and reflections on technology, discoveries, and life.</p>
+        <button onclick="window.location.href='#comment-section'">Leave a Comment</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form action="C:\xampp\htdocs\MyPage\Page\send-email.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Brahian Germosen. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
